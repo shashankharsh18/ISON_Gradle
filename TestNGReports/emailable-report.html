@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">SGA Role</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,401,330</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SGA Role &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TrainingModuleSDHead</td><td><a href="#m0">IsonLogin</a></td><td rowspan="1">1629958692068</td><td rowspan="1">744017</td></tr><tr><th colspan="4">SGA Role &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AssessmentModule</td><td><a href="#m1">testAssessment</a></td><td rowspan="1">1629957555229</td><td rowspan="1">743319</td></tr><tr class="passedodd"><td rowspan="1">TrainingModule</td><td><a href="#m2">IsonLogin</a></td><td rowspan="1">1629957603716</td><td rowspan="1">1051431</td></tr><tr class="passedeven"><td rowspan="1">TrainingModuleRAdmin</td><td><a href="#m3">IsonLogin</a></td><td rowspan="1">1629958368078</td><td rowspan="1">1426817</td></tr><tr class="passedodd"><td rowspan="1">TrainingModuleTrainer</td><td><a href="#m4">IsonLogin</a></td><td rowspan="1">1629959438177</td><td rowspan="1">1515044</td></tr><tr class="passedeven"><td rowspan="1">searchUsers</td><td><a href="#m5">testSearchUsers</a></td><td rowspan="1">1629958300756</td><td rowspan="1">65183</td></tr><tr class="passedodd"><td rowspan="1">trainingOverviewDashboardGuestOne</td><td><a href="#m6">testtrainingOverviewDashboard</a></td><td rowspan="1">1629957555287</td><td rowspan="1">42566</td></tr><tr class="passedeven"><td rowspan="1">trainingOverviewDashboardSiteHead</td><td><a href="#m7">testtrainingOverviewDashboard</a></td><td rowspan="1">1629958657309</td><td rowspan="1">32819</td></tr></tbody>
+</table>
+<h2>SGA Role</h2><h3 id="m0">TrainingModuleSDHead#IsonLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@title=&apos;Close&apos;]/span[1]&quot;}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-F3C6V38&apos;, ip: &apos;192.168.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:62809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a921db748c96a409505542c300c2803a
+*** Element info: {Using=xpath, value=//button[@title=&apos;Close&apos;]/span[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TrainingModuleSDHead.IsonLogin(TrainingModuleSDHead.java:326)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AssessmentModule#testAssessment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TrainingModule#IsonLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TrainingModuleRAdmin#IsonLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TrainingModuleTrainer#IsonLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">searchUsers#testSearchUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">trainingOverviewDashboardGuestOne#testtrainingOverviewDashboard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">trainingOverviewDashboardSiteHead#testtrainingOverviewDashboard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

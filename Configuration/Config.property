@@ -1,0 +1,23 @@
+baseURL=https://lmstraining.isonxperiences.com/
+
+env=UAT
+SGAUserName =brajesh
+SGAUserPassword=ison12345
+
+UserJoiningDate=2021-05-02
+
+IsonPassword=ison12345
+
+RAdminUserName  =  ISBL0430
+SDHeadUserName  =  ISBL02272   
+TrainerUserName =  13AZSB602
+TraineeUserName =  ISBL02851
+GuestUserName   =  guestone
+ClientUserName  =  ISBL0496
+SiteHeadUserName = 13AZSB6090
+
+
+TrainingStartDate = 2021-07-02
+TrainingEndDate =   2021-11-02
+
+managepoll =https://lmstraining.isonxperiences.com/my-polls

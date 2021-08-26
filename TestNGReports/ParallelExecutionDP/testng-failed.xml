@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ParallelExecutionDP]" data-provider-thread-count="2">
+  <test thread-count="5" verbose="0" name="Parallel Tests(failed)">
+    <classes>
+      <class name="addUser">
+        <methods>
+          <include name="testLoginScript" invocation-numbers="1 0 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- addUser -->
+      <class name="Certificate">
+        <methods>
+          <include name="GetCertificate" invocation-numbers="1 0 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Certificate -->
+    </classes>
+  </test> <!-- Parallel Tests(failed) -->
+</suite> <!-- Failed suite [ParallelExecutionDP] -->
